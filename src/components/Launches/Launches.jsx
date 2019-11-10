@@ -7,7 +7,6 @@ import LAUNCHES_QUERY from "../../querys/launches.query";
 const Launches = () => {
   const [launches, setLaunches] = useState([]);
   const [mission, setMission] = useState("");
-  const [launchesLenght, setLaunchesLength] = useState(0);
 
   const onChange = e => {
     setMission(e.target.value);
